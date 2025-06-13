@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { StatCard } from './components/StatCard';
 import { SimpleBarChart, SimplePieChart } from './components/Chart';
 import { PatientTable } from './components/PatientTable';
