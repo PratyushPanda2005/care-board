@@ -1,5 +1,4 @@
 import React from 'react';
-import { DivideIcon } from 'lucide-react';
 
 interface StatCardProps {
   title: string;
@@ -15,7 +14,7 @@ interface StatCardProps {
 export const StatCard: React.FC<StatCardProps> = ({ 
   title, 
   value, 
-  // icon: Icon, 
+  icon: Icon, 
   color, 
   trend 
 }) => {
@@ -32,7 +31,7 @@ export const StatCard: React.FC<StatCardProps> = ({
           )}
         </div>
         <div className={`${color} p-3 rounded-full`}>
-          <DivideIcon className="h-6 w-6 text-white" />
+          <Icon className="h-6 w-6 text-white" />
         </div>
       </div>
     </div>
